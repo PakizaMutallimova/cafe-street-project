@@ -12,12 +12,12 @@
     width: 80%;
 }
 
-h2{
+.text-content h2{
     font-size: 30px;
     padding: 10px;
 }
 
-p{
+.text-content p{
     font-size: 25px;
     padding: 10px;
 }
@@ -33,7 +33,7 @@ p{
     padding: 10px;
 }
 
-.btn{
+.buttons .btn{
     padding: 8px;
     margin: 10px;
     background-color: rgb(48, 22, 22);

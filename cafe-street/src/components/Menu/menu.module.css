@@ -1,0 +1,63 @@
+.menuPlace{
+    background-color: rgb(255, 214, 138);
+    width: 70%;
+    min-height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menuCards{
+    width: 250px;
+    /* height: 300px; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.image{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.nameAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameAndPrice p{
+    color: red;
+    font-size: 25px;
+}
+
+.nameAndPrice span{
+    font-size: 20px;
+    min-width: 20px;
+    background-color: rgb(255, 214, 138);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.cardBtn{
+    padding: 5px;
+    margin: 5px;
+    background-color:  rgb(255, 214, 138);
+    border: none;
+    border-radius: 10px;
+    min-width: 30px;
+}
+
+.buyingButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
