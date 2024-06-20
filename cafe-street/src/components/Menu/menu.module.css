@@ -61,3 +61,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.orderBtn{
+    background-color: rgb(241, 221, 184);
+}
