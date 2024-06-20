@@ -54,6 +54,7 @@
     border: none;
     border-radius: 10px;
     min-width: 30px;
+    cursor: pointer;
 }
 
 .buyingButtons{
@@ -62,6 +63,13 @@
     justify-content: space-between;
 }
 
-.orderBtn{
-    background-color: rgb(241, 221, 184);
+.passive{
+    background-color: rgb(253, 242, 222);
+    color: gray;
+    cursor: pointer;
 }
+
+/* .passive{
+    background-color: rgb(253, 242, 222);
+    color: gray;
+} */
